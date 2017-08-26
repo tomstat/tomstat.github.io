@@ -23,6 +23,10 @@
 		display: block;
 	}
 
+    header {
+        margin-bottom: 0.5em;    
+    }
+
 	body {
 		line-height: 1;
 	}
@@ -187,7 +191,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #313f47;
 		line-height: 1.5;
-		margin: 0 0 0.75em 0;
+		margin: 1em 0 0.75em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -481,7 +485,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0em 0;
 		padding-left: 1em;
 	}
 
@@ -700,11 +704,12 @@
 
 /* Main */
 
-	#main {
+	.main {
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 0em 2em 0.5em 2em;
+        margin: 1em 0 3em 0;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
@@ -724,26 +729,26 @@
 		transition: opacity 1s ease, transform 1s ease;
 	}
 
-		#main .avatar {
+		.main .avatar {
 			position: relative;
 			display: block;
 			margin-bottom: 1.5em;
 		}
 
-			#main .avatar img {
+			.main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
 
-			#main .avatar:before {
+			.main .avatar:before {
 				content: '';
 				display: block;
 				position: absolute;
 				top: 50%;
-				left: -3em;
-				width: calc(100% + 6em);
+				left: -2em;
+				width: calc(100% + 4em);
 				height: 1px;
 				z-index: -1;
 				background: #c8cccf;
@@ -751,20 +756,20 @@
 
 		@media screen and (max-width: 480px) {
 
-			#main {
+			.main {
 				min-width: 0;
 				width: 100%;
 				padding: 4em 2em 2.5em 2em ;
 			}
 
-				#main .avatar:before {
+				.main .avatar:before {
 					left: -2em;
 					width: calc(100% + 4em);
 				}
 
 		}
 
-		body.is-loading #main {
+		body.is-loading .main {
 			opacity: 0;
 			-moz-transform: rotateX(15deg);
 			-webkit-transform: rotateX(15deg);
@@ -780,7 +785,7 @@
 		-ms-align-self: -ms-flex-end;
 		align-self: flex-end;
 		width: 100%;
-		padding: 1.5em 0 0 0;
+		padding: 1.5em 0 0em 0;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		text-align: center;
