@@ -233,13 +233,13 @@
 	h6 {
 		font-size: 1em;
 	}
-
+	/*
 	@media screen and (max-width: 480px) {
 
 		h1 {
 			font-size: 1.65em;
 		}
-
+	*/
 	}
 
 	sub {
