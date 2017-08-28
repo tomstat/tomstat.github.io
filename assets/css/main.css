@@ -87,8 +87,8 @@
          display:flex;
          justify-content:center;
          align-items:center;
-   	 margin: 1em 0 -1em 0;
-         padding: 0px 20px;
+   	 margin: auto;
+         padding: 20px 20px;
 	 max-width: 500px;
 	}
     
@@ -96,6 +96,7 @@
         max-width: 500px;
         height: auto;
         width: 100%;
+	
 	max-height: auto;
 	}
 
