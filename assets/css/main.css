@@ -89,13 +89,20 @@
 		height: 100%;
 	}
 	
-	.wrapper-img {
+		.wrapper-img {
          display:flex;
          justify-content:center;
          align-items:center;
-   	 margin: 2.25em 0 -1em 0;
+   		 margin: 1em 0 -1em 0;
+         padding: 20px 0;
+         
 	}
     
+    .wrapper-img img{
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
 	body {
 		height: 100%;
 		background-color: #ffffff;
