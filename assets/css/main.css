@@ -64,13 +64,13 @@
 
 /* Basic */
 	
-	@media screen and (max-width: 480px) {
+	/*@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
 		}
 
-	}
+	}*/
 	
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -156,14 +156,14 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		/*@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
 				font-size: 10pt;
 				line-height: 1.75;
 			}
 
-		}
+		}*/
 
 	a {
 		-moz-transition: color 0.2s ease, border-color 0.2s ease;
@@ -578,13 +578,13 @@
 						border-color: #ff7496;
 					}
 
-			@media screen and (max-width: 480px) {
+			/*@media screen and (max-width: 480px) {
 
 				ul.icons li a:before {
 					font-size: 1.5rem;
 				}
 
-			}
+			} */
 
 		ul.actions {
 			cursor: default;
@@ -763,7 +763,7 @@
 				background: #c8cccf;
 			}
 
-		@media screen and (max-width: 480px) {
+		/*@media screen and (max-width: 480px) {
 
 			.main {
 				min-width: 0;
@@ -776,7 +776,7 @@
 					width: calc(100% + 4em);
 				}
 
-		}
+		}*/
 
 		body.is-loading .main {
 			opacity: 0;
@@ -862,13 +862,13 @@
 			display: block;
 		}
 
-		@media screen and (max-width: 360px) {
+		/*@media screen and (max-width: 360px) {
 
 			#wrapper {
 				padding: 0.75em;
 			}
 
-		}
+		}*/
 
 		body.is-ie #wrapper {
 			height: 100%;
