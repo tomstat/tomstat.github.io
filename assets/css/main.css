@@ -241,7 +241,7 @@
 	@media screen and (max-width: 480px) {
 
 		h1 {
-			font-size: 1em;
+			font-size: 1.5em;
 		}
 	
 	}
@@ -719,7 +719,7 @@
 
 	.main {
 		position: relative;
-		width: 400px;
+		width: 440px;
 		padding: 0em 2em 0.5em 2em;
        		margin: 2.5em 0 1em 0;
 		background: #ffffff;
