@@ -87,9 +87,12 @@
 	}
 	
 	.wrapper-img {
+         display:flex;
+         justify-content:center;
+         align-items:center;
    		 margin: 1em 0 -1em 0;
 	}
-
+    
 	body {
 		height: 100%;
 		background-color: #ffffff;
@@ -815,7 +818,12 @@
 				}
 
 /* Wrapper */
-
+    .mas {
+        
+       margin: 0 auto; 
+       
+        
+    }
 	#wrapper {
 		display: -moz-flex;
 		display: -webkit-flex;
