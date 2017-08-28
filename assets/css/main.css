@@ -29,6 +29,7 @@
 
 	body {	position: relative;
 		min-width: 500px;
+		width: 100%;
 		line-height: 1;
 	}
 
