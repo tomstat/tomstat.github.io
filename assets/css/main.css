@@ -27,12 +27,6 @@
         margin-bottom: 0.5em;    
     }
 
-	body {	position: relative;
-		min-width: 500px;
-		width: 100%;
-		line-height: 1;
-	}
-
 	ol, ul {
 		list-style: none;
 	}
@@ -65,13 +59,13 @@
 
 /* Basic */
 	
-	/*@media screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
 
 		html, body {
 			min-width: 320px;
 		}
 
-	}*/
+	}
 	
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -98,7 +92,7 @@
 	}
     
     	.wrapper-img img{
-        max-width: 100%;
+        max-width: 500px;
         height: auto;
         width: 100%;
 	max-height: auto;
@@ -165,14 +159,14 @@
 
 		}
 
-		/*@media screen and (max-width: 480px) {
+		@media screen and (max-width: 480px) {
 
 			body, input, select, textarea {
 				font-size: 10pt;
 				line-height: 1.75;
 			}
 
-		}*/
+		}
 
 	a {
 		-moz-transition: color 0.2s ease, border-color 0.2s ease;
@@ -242,14 +236,14 @@
 	h6 {
 		font-size: 1em;
 	}
-	/*
+	
 	@media screen and (max-width: 480px) {
 
 		h1 {
 			font-size: 1.65em;
 		}
 	
-	}*/
+	}
 
 	sub {
 		font-size: 0.8em;
@@ -772,7 +766,7 @@
 				background: #c8cccf;
 			}
 
-		/*@media screen and (max-width: 480px) {
+		@media screen and (max-width: 480px) {
 
 			.main {
 				min-width: 0;
@@ -785,7 +779,7 @@
 					width: calc(100% + 4em);
 				}
 
-		}*/
+		}
 
 		body.is-loading .main {
 			opacity: 0;
@@ -871,13 +865,13 @@
 			display: block;
 		}
 
-		/*@media screen and (max-width: 360px) {
+		@media screen and (max-width: 360px) {
 
 			#wrapper {
 				padding: 0.75em;
 			}
 
-		}*/
+		}
 
 		body.is-ie #wrapper {
 			height: 100%;
