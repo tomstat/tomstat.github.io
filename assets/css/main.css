@@ -27,7 +27,7 @@
         margin-bottom: 0.5em;    
     }
 
-	body {
+	body {	position: relative;
 		min-width: 500px;
 		line-height: 1;
 	}
