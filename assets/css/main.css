@@ -720,7 +720,7 @@
 	.main {
 		position: relative;
 		max-width: 100%;
-		min-width: 27em;
+		min-width: 400px;
 		padding: 0em 2em 0.5em 2em;
        		margin: 2.5em 0 1em 0;
 		background: #ffffff;
@@ -866,10 +866,10 @@
 			display: block;
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 450px) {
 
 			#wrapper {
-				padding: 0.75em;
+				padding: 0em;
 			}
 
 		}
