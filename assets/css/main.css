@@ -873,6 +873,13 @@
 
 		}
 
+		@media screen and (max-width: 600px) {
+
+			.wrapper-img {
+				padding: 30px 30px;
+			}
+
+		}
 		body.is-ie #wrapper {
 			height: 100%;
 		}
