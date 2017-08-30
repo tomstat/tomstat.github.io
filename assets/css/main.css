@@ -28,6 +28,7 @@
 	text-align: left;
 	display: -webkit-flex;
     	display: flex;
+	-webkit-flex-wrap: wrap;
     	flex-wrap: wrap;
     	justify-content: center;    
     }
