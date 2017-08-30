@@ -28,6 +28,7 @@
 	text-align: left;
 	display: -webkit-flex;
 	-webkit-flex-wrap: wrap;
+	-webkit-justify-content: center;        
     	display: flex;
 	flex-wrap: wrap;
     	justify-content: center;    
@@ -90,6 +91,9 @@
 	}
 	
 	.wrapper-img {
+	display: -webkit-flex;
+	-webkit-justify-content: center;  
+	-webkit-align-items: center;
          display:flex;
          justify-content:center;
          align-items:center;
