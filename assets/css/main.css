@@ -738,7 +738,8 @@
 			opacity: 0.5;
 		}
 
-/* Main */
+/* 
+*/
 
 	.main {
 		position: relative;
@@ -748,6 +749,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
+		min-height: 700px;
 		opacity: 0.95;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
